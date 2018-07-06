@@ -1,8 +1,10 @@
 # Create a tuple named `zoo` that contains your favorite animals.
 my_zoo = ('lion', 'tiger', 'bear', 'gerbil')
+
 # Find one of your animals using the `.index(value)` method on the tuple.
 index = my_zoo.index('tiger')
 print(index)
+
 # Determine if an animal is in your tuple by using `for value in tuple`.
 for animal in my_zoo:
     if animal == "owl":
